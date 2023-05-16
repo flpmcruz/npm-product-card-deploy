@@ -12,7 +12,6 @@ import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'flp-pro
 
 ```
 <ProductCard
-    key={product.id}
     product={product}
     initialValues={{
         count: 4,
